@@ -1,0 +1,35 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+    top: 25%;
+    padding: 1%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+img {
+    width: 375px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: "Outfit";
+    font-size: 2rem;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Outfit";
+    color: hsl(220, 15%, 55%);
+}
